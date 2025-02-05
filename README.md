@@ -9,6 +9,4 @@ pip install requests
 pip install getuseragent
 pip install colorama
 termux-setup-storage
-git clone https://github.com/profave/smm.git
-cd smm
-python smm.py
+
