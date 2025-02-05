@@ -9,4 +9,5 @@ pip install requests
 pip install getuseragent
 pip install colorama
 termux-setup-storage
-
+cd Tools.git
+python Tools1.py
