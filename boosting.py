@@ -131,7 +131,7 @@ def logo():
 {W}└───────────────────────────────────────────────────── {G}❏ {Y}❏ {O}❏ {W}❏──────────┘
 
  {W}┌──{R}[ {S}AUTHOR/OWNER{R} ]
- {W}╰────── {G}❯{Y}❯{O}❯{W}❯ {Y}  Y U S H.    H U I L E N """)
+ {W}╰────── {G}❯{Y}❯{O}❯{W}❯ {Y}   PERSONAL USE  """)
 
 
 def clear():
@@ -2566,58 +2566,14 @@ def main():
    
     linex()
     print(f'''{W} ┌───────────────────────────{G}TOOLS SERVICES{W}─────────────────────────────┐''')
-    print(f'''{W} │{B}  [01] {W}ACCOUNTS                      {white}-  {yellow}[Log in account]       {W}       │''')
-    print(f''' {W}│{B}  [02] {W}AUTO REACT W/O {R}CARE          {white}-  {yellow}[Page & Normal Account]   {W}     │ ''')
-    print(f'''{W} │{B}  [03] {W}AUTO REACT WITH{R} CARE         {white}-  {yellow}[Normal Account Only]     {W}     │''')
-    print(f'''{W} │{B}  [04] {W}AUTO REACT TO {R}COMMENT        {white}-  {yellow}[Page & Normal Account]   {W}     │''')
-    print(f'''{W} │{B}  [05] {W}AUTO REACT TO {R}DP & COVER     {white}-  {yellow}[Page & Normal Account]    {W}    │''')
-    print(f'''{W} │{B}  [06] {W}AUTO REACT TO {R}REELS          {white}-  {yellow}[Page & Normal Account]    {W}    │''')
-    print(f''' {W}│{B}  [07] {W}AUTO{R} FOLLOW                  {white}-  {yellow}[Page & Normal Account]  {W}      │''')
-    print(f'''{W} │{B}  [08] {W}AUTO COMMENT TO{R} POST         {white}-  {yellow}[Page & Normal Account]  {W}      │''')
-    print(f''' {W}│{B}  [09] {W}AUTO COMMENT TO{R} REELS        {white}-  {yellow}[Page & Normal Account]  {W}      │''')
-    print(f'''{W} │{B}  [10] {W}AUTO COMMENT TO{R} DP           {white}-  {yellow}[Page & Normal Account]    {W}    │''')
-    print(f'''{W} │{B}  [11 ]{W}REPLY TO {R}COMMENT             {white}-  {yellow}[Page & Normal Account]   {W}     │''')
-    print(f''' {W}│{B}  [12] {W}AUTO SHARE {R}V2                {white}-  {yellow}[Normal Account Only]    {W}      │''')
-    print(f'''{W} │{B}  [13] {W}AUTO GROUP {R}JOIN              {white}-  {yellow}[Facebook Page Only]  {W}         │''')
-    print(f'''{W} │{B}  [14] {W}LIKE & FOLLOW{R} PAGE           {white}-  {yellow}[Facebook Page Only]    {W}       │''')
-    print(f''' {W}│{B}  [15] {W}STORED{R} PAGES AND ACCOUNT     {white}-  {yellow}[Page & Normal Account]  {W}      │''')
+    print(f'''{W} │{B}  [01] {W}SHARE                      {white}-  {yellow}[Log in account]       {W}       │''')
     print(f''' {W}│{B}  [16] {W}RESET {R}TOOL                   {white}-  {yellow}[ Restarting ]         {W}        │''')
     print(f'''{W} │{B}  [00] {W}EXIT                         {white}- {yellow} [Exit]               {W}          │''')
     print(f'''{W} └──────────────────────────────────────────────────────────────────────┘''')
     linex()
     choice = input(f'''{yellow}  Choose : {green}''').upper()
     if choice == '1' or choice == '01':
-        start_tool()
-    elif choice == '2' or choice == '02':
-        react()
-    elif choice == '3' or choice == '03':
-        react_with_care()
-    elif choice == '4' or choice == '04':
-        react_comment()
-    elif choice == '5' or choice == '05':
-        react_dp_cover()
-    elif choice == '6' or choice == '06':
-        react_reels()
-    elif choice == '7' or choice == '07':
-        follow()
-    elif choice == '8' or choice == '08':
-        auto_comment()
-    elif choice == '9' or choice == '09':
-        auto_comment_to_reels()
-    elif choice == '10':
-        auto_comment_to_dp()
-    elif choice == '11':
-        reply_to_comment()
-    elif choice == '12':
         share()
-    elif choice == '13':
-        g_join()
-    elif choice == '14':
-        p_like()
-    elif choice == '15':
-        store()
-    elif choice == '16':
-        delete_files()
     elif choice == '17':
         print(f'''\n{red}  Byeeeeers!''')
         return
